@@ -1,6 +1,5 @@
 package com.kubernetes.modals.dto;
 
-import jakarta.persistence.Entity;
 import lombok.Data;
 import lombok.Generated;
 
@@ -8,8 +7,9 @@ import lombok.Generated;
 @Generated
 public class SampleDTO {
 
-	private int id;
+	private String id;
 	private String name;
 	private String description;
 	private String image;
+
 }
